@@ -43,6 +43,12 @@ This is a solution for [this repo](https://github.com/zayolab/developer-exercise
 
 ![](zayolab-tests.png "Ignored some files in package.json")
 
+***
+
+![](zayolabs-negative-zero-error.png "negative zero error")
+
+***
+
 ## Directions
 
 ### ROI Calculator
