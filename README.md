@@ -108,11 +108,11 @@ The following formulas are used in the app to calculate financials:
 - Changing from empty table headers required a css fix from the original styling. 
 - Choice to save oneTime and monthly as strings and convert to numbers later or convert automatically to numbers before you save them to state. 
 - Originally, had newEntry oneTime and monthly values saved as numbers with starting value of zero - this caused a leading zero problem - although it did not affect calculation.
-- Switching newEntry oneTime and monthly types required created another model and changing starting / reset values of newEntry object - no other changes were necessary - may be errors haven't seen yet ?
+- Switching newEntry oneTime and monthly types requires creating another model and changing the starting / reset values of the newEntry object - no other changes are necessary - may be errors ?
 - I tried to make sure the whole application fit above the fold versus having it stretch further.
 - Limited name input length to help with mobile view  
 - I thought about having totalsTable go side by side with the other tables, either with flex or grid.   
-- React bootstrap modal code had {...props} on the modal element - this causes a react wrapper dom element error.  [Read this article](https://stackoverflow.com/questions/49358560/react-wrapper-react-does-not-recognize-the-staticcontext-prop-on-a-dom-elemen) for more.
+- React bootstrap modal code had {...props} on the modal element - this causes a react wrapper dom element error.  [See Stack Overflow](https://stackoverflow.com/questions/49358560/react-wrapper-react-does-not-recognize-the-staticcontext-prop-on-a-dom-elemen) for more.
 - Had problems with typing Table component props because I was passing props that weren't being used.  I forgot to remove       handleNewEntryChange and newEntry after I refactored and made AddForm a separate component. 
 - When testing Row separately, you will get validateDOMNesting(...): `<tr>` cannot appear as a child of `<div>` error because the top level dom element is a tr and it is not wrapped by a tbody tag.  
 - Testing - typescript models were being included - need to add jest: {coveragePathIgnorePatterns: `filepaths here` } in package.json to exclude certain files
