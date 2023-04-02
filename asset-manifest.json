@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zayolab-developer-exercise-web/static/css/main.de131d14.css",
+    "main.js": "/zayolab-developer-exercise-web/static/js/main.4ba4f52e.js",
+    "static/js/787.e12d5cfb.chunk.js": "/zayolab-developer-exercise-web/static/js/787.e12d5cfb.chunk.js",
+    "index.html": "/zayolab-developer-exercise-web/index.html",
+    "main.de131d14.css.map": "/zayolab-developer-exercise-web/static/css/main.de131d14.css.map",
+    "main.4ba4f52e.js.map": "/zayolab-developer-exercise-web/static/js/main.4ba4f52e.js.map",
+    "787.e12d5cfb.chunk.js.map": "/zayolab-developer-exercise-web/static/js/787.e12d5cfb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de131d14.css",
+    "static/js/main.4ba4f52e.js"
+  ]
+}
