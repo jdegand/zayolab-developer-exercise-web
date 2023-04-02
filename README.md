@@ -2,6 +2,10 @@
 
 This is a solution for [this repo](https://github.com/zayolab/developer-exercise).
 
+## Link
+
+[Github Pages](https://jdegand.github.io/zayolab-developer-exercise-web/)
+
 ## Screenshots 
 
 ![](zayolab-1.png)
