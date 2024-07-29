@@ -14,13 +14,7 @@ const AddForm = (props: {
 }) => {
   // difficult to disable button since adding empty id: '' to newEntry object and having 0 - falsy value - being allowed
   // for oneTime and monthly values - can't do a simple grabbing of the values and use .every() to check for falsy values
-
-  // const objectValues = Object.values(props.newEntry); //.every(Boolean);
-  // objectValues.shift();
-  // console.log('canAdd', objectValues.every(Boolean));
-
   // Added required to name - some validation - can still add - 0 and 0 to revenues/expenses
-
   // leading zero problem if newEntry state is initialized with 0 vs an empty string
 
   return (
